@@ -1,0 +1,3 @@
+.calendar_default_main>div:nth-child(2){
+    overflow: hidden !important;
+}

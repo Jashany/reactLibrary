@@ -28,6 +28,8 @@ const Calendar = () => {
   const [calendarConfig, setCalendarConfig] = useState({
     viewType: "Week",
     durationBarVisible: false,
+    businessBeginsHour: 8,
+    businessEndsHour: 16,
     timeRangeSelectedHandling: "Enabled",
     onTimeRangeSelected: async args => {
       const dp = calendarRef.current.control;
